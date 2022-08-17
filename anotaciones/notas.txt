@@ -1,0 +1,19 @@
+
+npm init
+npm uninstall nodemon // uninstall es para desinstalar
+npm i colors@1.0.0
+npm update // revisa las dependencias y actualiza
+npm i yargs
+
+// console.log( process.argv ); // muestra los argvs
+// const [ , , arg3 = 'base=5' ] = process.argv; 
+// const [ , base = 5 ] = arg3.split('=');
+
+node app --help // --help es un standard
+
+npm i // en caso de borrar node modules se vuelven a instalar
+
+git init // las carpetas que git ignoran quedan en gris y el resto en verde
+git add . // toma todos los cambios desde el ultimo commit
+git commit -m "Primer commit"
+git checkout -- .
